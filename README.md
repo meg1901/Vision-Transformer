@@ -61,8 +61,7 @@ outputs/accuracy_curve.png
 outputs/loss_curve.png
 ```
 
-The project reports Top-1 accuracy, Top-5 accuracy, and test loss.
-
+The training pipeline reports Top-1 accuracy, Top-5 accuracy, and test loss.
 ## Repository Structure
 
 ```text
@@ -92,7 +91,7 @@ The refactored version fixes these while preserving the intended ViT architectur
 
 ## Reproducibility
 
-CIFAR-10 downloads automatically through Keras on first run. Full training is compute-intensive; a GPU-enabled TensorFlow environment is recommended.
+CIFAR-10 downloads automatically through Keras on first run. Full training is compute-intensive; a GPU-enabled TensorFlow environment is recommended.Full training was not rerun during repository cleanup due to CIFAR-10 download instability; the code is structured for reproducible training when the dataset is available.
 
 ## Author
 
